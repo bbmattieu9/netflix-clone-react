@@ -12,5 +12,4 @@ const requests = {
 };
 
 export default requests;
-
-// https://api.themoviedb.org/3/
+///movie/top_rated?api_key=49ff79ae71652e665b4084b23dd0a138&language=en-US
