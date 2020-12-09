@@ -1,8 +1,8 @@
 const API_KEY = '49ff79ae71652e665b4084b23dd0a138';
 
 const requests = {
-    fetchTrending: `/trending/all/week?api_key=${API_KEY}&language=en-US`,
-    fetchNetflixOriginals: `/discover/tv?api_key=${API_KEY}&with_networks=213`,
+    fetchTrending: `/trending/all/day?api_key=${API_KEY}`,
+    fetchNetflixOriginals: `/discover/tv?api_key=${API_KEY}&language=en-US&sort_by=popularity.desc&page=1&timezone=America%2FNew_York&include_null_first_air_dates=false`,
     fetchTopRated: `/movie/top_rated?api_key=${API_KEY}&language=en-US`,
     fetchActionMovies: `/discover/movie?api_key=${API_KEY}&with_genres=28`,
     fetchComedyMovies: `/discover/movie?api_key=${API_KEY}&with_genres=35`,
@@ -12,3 +12,5 @@ const requests = {
 };
 
 export default requests;
+
+// https://api.themoviedb.org/3/
