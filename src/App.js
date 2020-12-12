@@ -1,6 +1,7 @@
 import Row from './Row';
 import requests from './request';
 import Banner from './Banner';
+import Nav from './Nav';
 import './App.css';
 
 function App() {
@@ -9,6 +10,7 @@ function App() {
   return (
     <div className="App">
        {/* Nav here.. */}
+       <Nav />
 
        <Banner />
       {/* <h1>Hello Netflix Clone!</h1> */}
